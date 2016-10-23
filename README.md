@@ -1,1 +1,1 @@
-# mvn-Publish-Usage
+# mvn-publish-usage
