@@ -1,6 +1,6 @@
 # mvn publish usage
 
-| Following: https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+> Following: https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 Test using a maven package on GitHub.
 - Test external package: https://github.com/grant/mvn-publish-test
