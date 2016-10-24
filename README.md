@@ -29,6 +29,7 @@ mvn install:install-file \
 ```
 
 - IntelliJ may prompt you to add classes. Do this in order to get the dependency to resolve.
+![screen shot 2016-10-23 at 11 23 45 pm](https://cloud.githubusercontent.com/assets/744973/19635528/d9deef90-9977-11e6-8a33-b9eb5344e8a9.png)
 - Verify: Under "External Libraries" in IntelliJ you should see your jar
   - `mvn-publish-test-0.0.1-SNAPSHOT.jar`.
 
