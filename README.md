@@ -9,15 +9,15 @@ Inspired by Stripe's release process: https://github.com/stripe/stripe-java/rele
 
 ---
 
-## Built using:
+## Generate a Maven project
 ```
 mvn archetype:generate -DgroupId=cm.grant -DartifactId=mvn-publish-usage -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
 ## Add dependency
-- Create META-INF folder (mkdir META-INF)
-- Put jar in it. (mvn-publish-test-0.0.1-SNAPSHOT.jar)
-- Run this command:
+- Create META-INF folder (mkdir `META-INF`)
+- Put the jar dependencies in it. (`mvn-publish-test-0.0.1-SNAPSHOT.jar`)
+- Run this command for each jar (alter as necessary):
 
 ```
 mvn install:install-file \
@@ -28,10 +28,8 @@ mvn install:install-file \
 -Dpackaging=jar
 ```
 
-`mvn package`
-
 - IntelliJ may prompt you to add classes. Do this in order to get the dependency to resolve.
-- Verify: Under "External Libraries" you should see your jar
+- Verify: Under "External Libraries" in IntelliJ you should see your jar
   - `mvn-publish-test-0.0.1-SNAPSHOT.jar`.
 
 ---
